@@ -1,0 +1,35 @@
+
+
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #f0f0f0;  
+}  
+
+.container {  
+    text-align: center;  
+    margin-top: 50px;  
+}  
+
+#color-box {  
+    width: 200px;  
+    height: 200px;  
+    background-color: #3498db; /* Initial color */  
+    margin: 20px auto; /* Center the box */  
+    border: 2px solid #2980b9; /* Border color */  
+}  
+
+#change-color-btn {  
+    padding: 10px 20px;  
+    font-size: 16px;  
+    border: none;  
+    border-radius: 5px;  
+    background-color: #2980b9; /* Button color */  
+    color: white;  
+    cursor: pointer;  
+}  
+
+#change-color-btn:hover {  
+    background-color: #1c6691; /* Change color on hover */  
+}  
